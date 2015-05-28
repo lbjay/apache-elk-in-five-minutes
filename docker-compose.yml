@@ -1,0 +1,7 @@
+elk:
+    image: pblittle/docker-logstash
+    env_file: .env
+    ports:
+        - "9200:9200"
+        - "9292:9292"
+        - "3333:3333"
