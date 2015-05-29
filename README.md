@@ -11,7 +11,7 @@ In this demo we are going to spin up the following applications:
 * kibana
 * drupal
 
-with only a 15-line yaml file and one command!
+with only a 12-line yaml file and one command!
 
 #### Dependencies
 * docker (i'm using v1.4.1)
