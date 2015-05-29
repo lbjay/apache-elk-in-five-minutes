@@ -5,3 +5,8 @@ elk:
         - "9200:9200"
         - "9292:9292"
         - "3333:3333"
+
+drupal:
+   image: drupal:latest
+   ports:
+       - "8080:80"
